@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280B47A71AEC28310044CA0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B47A61AEC28310044CA0F /* AppDelegate.swift */; };
+		280B47A91AEC28310044CA0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B47A81AEC28310044CA0F /* ViewController.swift */; };
+		280B47AC1AEC28310044CA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280B47AA1AEC28310044CA0F /* Main.storyboard */; };
+		280B47AE1AEC28310044CA0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280B47AD1AEC28310044CA0F /* Images.xcassets */; };
+		280B47B11AEC28310044CA0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280B47AF1AEC28310044CA0F /* LaunchScreen.xib */; };
+		280B47BD1AEC28310044CA0F /* Dolar_HoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B47BC1AEC28310044CA0F /* Dolar_HoyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280B47B71AEC28310044CA0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B47991AEC28310044CA0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280B47A01AEC28310044CA0F;
+			remoteInfo = "Dolar Hoy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280B47A11AEC28310044CA0F /* Dolar Hoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dolar Hoy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		280B47A51AEC28310044CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280B47A61AEC28310044CA0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280B47A81AEC28310044CA0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280B47AB1AEC28310044CA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280B47AD1AEC28310044CA0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		280B47B01AEC28310044CA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		280B47B61AEC28310044CA0F /* Dolar HoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dolar HoyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		280B47BB1AEC28310044CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280B47BC1AEC28310044CA0F /* Dolar_HoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolar_HoyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280B479E1AEC28310044CA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B47B31AEC28310044CA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280B47981AEC28310044CA0F = {
+			isa = PBXGroup;
+			children = (
+				280B47A31AEC28310044CA0F /* Dolar Hoy */,
+				280B47B91AEC28310044CA0F /* Dolar HoyTests */,
+				280B47A21AEC28310044CA0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280B47A21AEC28310044CA0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280B47A11AEC28310044CA0F /* Dolar Hoy.app */,
+				280B47B61AEC28310044CA0F /* Dolar HoyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280B47A31AEC28310044CA0F /* Dolar Hoy */ = {
+			isa = PBXGroup;
+			children = (
+				280B47A61AEC28310044CA0F /* AppDelegate.swift */,
+				280B47A81AEC28310044CA0F /* ViewController.swift */,
+				280B47AA1AEC28310044CA0F /* Main.storyboard */,
+				280B47AD1AEC28310044CA0F /* Images.xcassets */,
+				280B47AF1AEC28310044CA0F /* LaunchScreen.xib */,
+				280B47A41AEC28310044CA0F /* Supporting Files */,
+			);
+			path = "Dolar Hoy";
+			sourceTree = "<group>";
+		};
+		280B47A41AEC28310044CA0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280B47A51AEC28310044CA0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		280B47B91AEC28310044CA0F /* Dolar HoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				280B47BC1AEC28310044CA0F /* Dolar_HoyTests.swift */,
+				280B47BA1AEC28310044CA0F /* Supporting Files */,
+			);
+			path = "Dolar HoyTests";
+			sourceTree = "<group>";
+		};
+		280B47BA1AEC28310044CA0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280B47BB1AEC28310044CA0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280B47A01AEC28310044CA0F /* Dolar Hoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280B47C01AEC28310044CA0F /* Build configuration list for PBXNativeTarget "Dolar Hoy" */;
+			buildPhases = (
+				280B479D1AEC28310044CA0F /* Sources */,
+				280B479E1AEC28310044CA0F /* Frameworks */,
+				280B479F1AEC28310044CA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dolar Hoy";
+			productName = "Dolar Hoy";
+			productReference = 280B47A11AEC28310044CA0F /* Dolar Hoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280B47B51AEC28310044CA0F /* Dolar HoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280B47C31AEC28310044CA0F /* Build configuration list for PBXNativeTarget "Dolar HoyTests" */;
+			buildPhases = (
+				280B47B21AEC28310044CA0F /* Sources */,
+				280B47B31AEC28310044CA0F /* Frameworks */,
+				280B47B41AEC28310044CA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280B47B81AEC28310044CA0F /* PBXTargetDependency */,
+			);
+			name = "Dolar HoyTests";
+			productName = "Dolar HoyTests";
+			productReference = 280B47B61AEC28310044CA0F /* Dolar HoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280B47991AEC28310044CA0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arif De Sousa";
+				TargetAttributes = {
+					280B47A01AEC28310044CA0F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					280B47B51AEC28310044CA0F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 280B47A01AEC28310044CA0F;
+					};
+				};
+			};
+			buildConfigurationList = 280B479C1AEC28310044CA0F /* Build configuration list for PBXProject "Dolar Hoy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280B47981AEC28310044CA0F;
+			productRefGroup = 280B47A21AEC28310044CA0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280B47A01AEC28310044CA0F /* Dolar Hoy */,
+				280B47B51AEC28310044CA0F /* Dolar HoyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280B479F1AEC28310044CA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280B47AC1AEC28310044CA0F /* Main.storyboard in Resources */,
+				280B47B11AEC28310044CA0F /* LaunchScreen.xib in Resources */,
+				280B47AE1AEC28310044CA0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B47B41AEC28310044CA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280B479D1AEC28310044CA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280B47A91AEC28310044CA0F /* ViewController.swift in Sources */,
+				280B47A71AEC28310044CA0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B47B21AEC28310044CA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280B47BD1AEC28310044CA0F /* Dolar_HoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280B47B81AEC28310044CA0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280B47A01AEC28310044CA0F /* Dolar Hoy */;
+			targetProxy = 280B47B71AEC28310044CA0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280B47AA1AEC28310044CA0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280B47AB1AEC28310044CA0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280B47AF1AEC28310044CA0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280B47B01AEC28310044CA0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280B47BE1AEC28310044CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280B47BF1AEC28310044CA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280B47C11AEC28310044CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dolar Hoy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		280B47C21AEC28310044CA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dolar Hoy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		280B47C41AEC28310044CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dolar HoyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolar Hoy.app/Dolar Hoy";
+			};
+			name = Debug;
+		};
+		280B47C51AEC28310044CA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dolar HoyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolar Hoy.app/Dolar Hoy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280B479C1AEC28310044CA0F /* Build configuration list for PBXProject "Dolar Hoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B47BE1AEC28310044CA0F /* Debug */,
+				280B47BF1AEC28310044CA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280B47C01AEC28310044CA0F /* Build configuration list for PBXNativeTarget "Dolar Hoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B47C11AEC28310044CA0F /* Debug */,
+				280B47C21AEC28310044CA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280B47C31AEC28310044CA0F /* Build configuration list for PBXNativeTarget "Dolar HoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B47C41AEC28310044CA0F /* Debug */,
+				280B47C51AEC28310044CA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280B47991AEC28310044CA0F /* Project object */;
+}
