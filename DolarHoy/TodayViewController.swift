@@ -18,15 +18,21 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let dataDT = DolarToday()
-        
-        self.precioDTLabel.text = "$\(dataDT.dolarToday)"
-        self.precioSLabel.text  = "$\(dataDT.simadi)"
-        
-        dataDT.refresh{
-            
+        if let dataDT = DolarToday()
+        {
             self.precioDTLabel.text = "$\(dataDT.dolarToday)"
             self.precioSLabel.text  = "$\(dataDT.simadi)"
+        }
+        
+        
+        
+        DolarToday.refresh{
+            
+            if let dataDT = DolarToday()
+            {
+                self.precioDTLabel.text = "$\(dataDT.dolarToday)"
+                self.precioSLabel.text  = "$\(dataDT.simadi)"
+            }
         }
     }
 

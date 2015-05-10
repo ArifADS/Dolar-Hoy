@@ -25,21 +25,29 @@ class ViewController: UIViewController, JBLineChartViewDataSource, JBLineChartVi
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let dataDT = DolarToday()
-        
-        /*precioDTLabel.morphingEffect = .Fall
-        precioSLabel.morphingEffect = .Fall*/
-        
-        self.precioDTLabel.text = "$\(dataDT.dolarToday)"
-        self.precioSLabel.text  = "$\(dataDT.simadi)"
-        self.precioHistory = dataDT.history
-        
-        dataDT.refresh{
-            
-            self.precioDTLabel.text = "$\(dataDT.dolarToday)"
-            self.precioSLabel.text  = "$\(dataDT.simadi)"
+        if let dataDT = DolarToday()
+        {
+            self.precioDTLabel.text = "$\(dataDT.dolarToday!)"
+            self.precioSLabel.text  = "$\(dataDT.simadi!)"
             self.precioHistory = dataDT.history
-            self.lineChartView.reloadData()
+        }
+        else
+        {
+            println("nil")
+        }
+        
+        
+        
+        
+        DolarToday.refresh{
+            
+            if let dataDT = DolarToday()
+            {
+                self.precioDTLabel.text = "$\(dataDT.dolarToday!)"
+                self.precioSLabel.text  = "$\(dataDT.simadi!)"
+                self.precioHistory = dataDT.history
+                self.lineChartView.reloadData()
+            }
         }
         
         lineChartView.dataSource = self;
@@ -73,20 +81,23 @@ class ViewController: UIViewController, JBLineChartViewDataSource, JBLineChartVi
     
     @IBAction func tappedView(sender: UITapGestureRecognizer) {
         
-        let dataDT = DolarToday()
+        if let dataDT = DolarToday()
+        {
+            if !isDollar
+            {
+                self.precioDTLabel.text = "$\(dataDT.dolarToday)"
+                self.precioSLabel.text  = "$\(dataDT.simadi)"
+                isDollar = true
+            }
+            else
+            {
+                self.precioDTLabel.text = NSString(format: "€%.2f", dataDT.dolarToday*dataDT.rate) as String
+                self.precioSLabel.text  = NSString(format: "€%.2f", dataDT.simadi*dataDT.rate) as String
+                isDollar = false
+            }
+        }
         
-        if !isDollar
-        {
-            self.precioDTLabel.text = "$\(dataDT.dolarToday)"
-            self.precioSLabel.text  = "$\(dataDT.simadi)"
-            isDollar = true
-        }
-        else
-        {
-            self.precioDTLabel.text = NSString(format: "€%.2f", dataDT.dolarToday*dataDT.rate) as String
-            self.precioSLabel.text  = NSString(format: "€%.2f", dataDT.simadi*dataDT.rate) as String
-            isDollar = false
-        }
+        
         
     }
     

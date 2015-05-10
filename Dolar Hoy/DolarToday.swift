@@ -10,16 +10,18 @@ import Foundation
 
 class DolarToday
 {
-    var dolarToday:Double!
-        {
+    var dolarToday:Double!{
         get{
             let ud = NSUserDefaults.standardUserDefaults()
-            return ud.valueForKey("precioDolarToday") as? Double
-        }
-        
-        set{
-            let ud = NSUserDefaults.standardUserDefaults()
-            ud.setValue(newValue, forKey: "precioDolarToday")
+            
+            if let price = ud.valueForKey("currentPrices") as? NSData,
+               let json = NSJSONSerialization.JSONObjectWithData(price, options: nil, error: nil) as? [String:AnyObject]
+            {
+                if let precios = json["precios"] as? [[String:AnyObject]]{
+                    return precios[0]["precio"] as? Double
+                }
+            }
+            return nil
         }
     }
     
@@ -27,12 +29,15 @@ class DolarToday
         {
         get{
             let ud = NSUserDefaults.standardUserDefaults()
-            return ud.valueForKey("precioSIMADI") as? Double
-        }
-        
-        set{
-            let ud = NSUserDefaults.standardUserDefaults()
-            ud.setValue(newValue, forKey: "precioSIMADI")
+            
+            if let price = ud.valueForKey("currentPrices") as? NSData,
+                let json = NSJSONSerialization.JSONObjectWithData(price, options: nil, error: nil) as? [String:AnyObject]
+            {
+                if let precios = json["precios"] as? [[String:AnyObject]]{
+                    return precios[1]["precio"] as? Double
+                }
+            }
+            return nil
         }
     }
     
@@ -40,12 +45,13 @@ class DolarToday
         {
         get{
             let ud = NSUserDefaults.standardUserDefaults()
-            return ud.valueForKey("rate") as? Double
-        }
-        
-        set{
-            let ud = NSUserDefaults.standardUserDefaults()
-            ud.setValue(newValue, forKey: "rate")
+            
+            if let price = ud.valueForKey("currentPrices") as? NSData,
+                let json = NSJSONSerialization.JSONObjectWithData(price, options: nil, error: nil) as? [String:AnyObject]
+            {
+                return json["rate"] as? Double
+            }
+            return nil
         }
     }
     
@@ -68,31 +74,53 @@ class DolarToday
         
     }
     
-    func refresh(completion:() -> Void)
+    init?()
+    {
+        let ud = NSUserDefaults.standardUserDefaults()
+        if let check1 = ud.valueForKey("precioHistory") as? String,
+           let check2 = ud.valueForKey("currentPrices") as? NSData
+        {
+        }
+        else
+        {
+            return nil
+        }
+        
+    }
+    
+    class func refresh(completion:() -> Void)
     {
         NSOperationQueue().addOperationWithBlock
             {
                 let url = NSURL(string: "http://arifads.me/dolarhoy/dolarhoy.php")!
-                let preciosData = NSData(contentsOfURL: url)
+                
+                if let preciosData = NSData(contentsOfURL: url)
+                {
+                    self.saveCurrentPrice(preciosData)
+                    let json = NSJSONSerialization.JSONObjectWithData(preciosData, options: nil, error: nil) as! [String:AnyObject]
+                }
+                
                 
                 let urlHistory = NSURL(string: "http://arifads.me/dolarhoy/getHistory.php")!
-                let preciosHistory = NSString(contentsOfURL: urlHistory, encoding: 4, error: nil)
-                
-                let ud = NSUserDefaults.standardUserDefaults()
-                ud.setValue(preciosHistory, forKey: "precioHistory")
-                
-                
-                let json = NSJSONSerialization.JSONObjectWithData(preciosData!, options: nil, error: nil) as! [String:AnyObject]
-                
-                self.rate = json["rate"] as! Double
-                
-                let precios = json["precios"] as! [[String:AnyObject]]
-                
-                
-                self.dolarToday = precios[0]["precio"] as! Double
-                self.simadi     = precios[1]["precio"] as! Double
-                
+                if let preciosHistory = NSString(contentsOfURL: urlHistory, encoding: 4, error: nil){
+                    
+                    self.savePriceHistory(preciosHistory as! String)
+                }
+
                 NSOperationQueue.mainQueue().addOperationWithBlock(completion)
         }
+    }
+    
+    private class func saveCurrentPrice(newValue:NSData){
+        
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setValue(newValue, forKey: "currentPrices")
+        
+    }
+    
+    private class func savePriceHistory(newValue:String)
+    {
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setValue(newValue, forKey: "precioHistory")
     }
 }
