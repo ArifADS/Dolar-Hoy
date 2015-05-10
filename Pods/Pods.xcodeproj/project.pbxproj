@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C216B907B4AAA9A20D524C /* TOLAdAdapterGoogleAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0D5ECC8A955E34C766B476 /* TOLAdAdapterGoogleAds.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0BEF6DAD5D4559ACF24AC2DB /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA38BABA3D505FB070DFE /* JBBarChartView.m */; };
+		125122D3C6BB6D33F5F9C3E2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A69F3A7A8A71E0819EC1B6 /* AudioToolbox.framework */; };
+		14DD60B433165D4E52CB7788 /* Pods-Dolar Hoy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFADAFE19BE2C06E78ABF51 /* Pods-Dolar Hoy-dummy.m */; };
+		16A40D9C39566F728B0F2C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E44AC5147FEB780AD67B94B /* Foundation.framework */; };
+		17A5FB6C2D3BBE50BFC0B321 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AAA38BABA3D505FB070DFE /* JBBarChartView.m */; };
+		1B693BB52645440C81973580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E44AC5147FEB780AD67B94B /* Foundation.framework */; };
+		1FC6035087D73BBA1E595AEB /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEC4EB553A39FACFB84F9EF /* JBBarChartView.h */; };
+		21C63245D09796936CAABB36 /* TOLAdAdapterGoogleAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCEB04DD7A30C99CB702BB0 /* TOLAdAdapterGoogleAds.h */; };
+		30011F6C2E24AB14233CF832 /* TOLAdAdapteriAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C43AC3F9A3CCC093179011 /* TOLAdAdapteriAds.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30543112568590B01C9D1886 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D96370E349E90DA1837E4 /* iAd.framework */; };
+		346329DFAF611EE6A121C6C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C35E4612E044F9D58BBF28 /* CoreGraphics.framework */; };
+		35DDB74CD019DD390DA9ACE6 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D0112517434079F529F0E /* JBChartView.m */; };
+		3CD7A56BFCC9EF8658C8D40B /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2F3490E601D7E4FA222CC /* JBLineChartView.m */; };
+		40CAF37C84DA969A50851BB9 /* Pods-DolarHoy-JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DD607FF1A4C254E60F509 /* Pods-DolarHoy-JBChartView-dummy.m */; };
+		498EEBC338B1491D56F757C8 /* LARSAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04386FF5EA5ED44D553F8B7E /* LARSAdController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		643F579558CEA77549A92620 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2F3490E601D7E4FA222CC /* JBLineChartView.m */; };
+		73952BA8683EC1F40DD1AA35 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B6E15CCBF0A364B4DD4A57 /* StoreKit.framework */; };
+		79F7791817996BF4E7698667 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA591542CBD30C0805FA4E0C /* JBLineChartView.h */; };
+		7C21DF8166EBC78EF0701497 /* Pods-Dolar Hoy-JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85B23DED287A9EDD8818CB3 /* Pods-Dolar Hoy-JBChartView-dummy.m */; };
+		7DE4EFA57ACE2328B0C93249 /* TOLAdAdapteriAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2E9B155F8390C5EA0B327A /* TOLAdAdapteriAds.h */; };
+		89808B74053A9DDA78CD2ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E44AC5147FEB780AD67B94B /* Foundation.framework */; };
+		8BA7D392407C8462B7917701 /* TOLAdAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B39A6995129D652F2A53D2 /* TOLAdAdapter.h */; };
+		9BE2247B206ECB080A3DDA3B /* TOLAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281D67E94AF5680F3BEC0D /* TOLAdViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A57590BBA570200E8903618B /* Pods-Dolar Hoy-LARSAdController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF6659200E41F974F61402 /* Pods-Dolar Hoy-LARSAdController-dummy.m */; };
+		B5A56899BC25BFFB79E696C5 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = C313FDAC9F2BED29BF70AC74 /* JBChartView.h */; };
+		B8C88053D254FDC22E328BA8 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA591542CBD30C0805FA4E0C /* JBLineChartView.h */; };
+		C3AABA0C66522022CE6C35CE /* TOLAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6992363627654F97313F0880 /* TOLAdViewController.h */; };
+		CB73B5128E53F473A1B07DA3 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668D0112517434079F529F0E /* JBChartView.m */; };
+		DC10816416ACFCAC7F466C29 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F1D7C42D5378CE4FD8F1C7 /* SystemConfiguration.framework */; };
+		DE1B356774B297337D7E761D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4577F570628E015046979B3 /* MessageUI.framework */; };
+		E5198ECA6682F6E8347B209D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E44AC5147FEB780AD67B94B /* Foundation.framework */; };
+		E7DD98494306A0E64275278C /* LARSAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9733873C92D015101D39520 /* LARSAdController.h */; };
+		E89911A03E8E61CDDCACBE64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E44AC5147FEB780AD67B94B /* Foundation.framework */; };
+		E995A0A2C252B25A5EC6C9A4 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = C313FDAC9F2BED29BF70AC74 /* JBChartView.h */; };
+		F173790104E0FADA3303C510 /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEC4EB553A39FACFB84F9EF /* JBBarChartView.h */; };
+		FA8E5981F4133A1CF06D8F34 /* Pods-DolarHoy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5086C5DBD2105DAE5E1A6D0A /* Pods-DolarHoy-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B2E998487E7D758906B9446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB3CAAC97B48D57DAFA1724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7D3E6889FC1345819BFCE7D;
+			remoteInfo = "Pods-DolarHoy-JBChartView";
+		};
+		7EF3413FC6632EE5F30FA5B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB3CAAC97B48D57DAFA1724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08C912DD01B6059199FE293;
+			remoteInfo = "Pods-Dolar Hoy-JBChartView";
+		};
+		CDC6F536551723FD9F8211F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB3CAAC97B48D57DAFA1724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7A0B73015A1F02F4A53BCB;
+			remoteInfo = "Pods-Dolar Hoy-LARSAdController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C2F3490E601D7E4FA222CC /* JBLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = Classes/JBLineChartView.m; sourceTree = "<group>"; };
+		04386FF5EA5ED44D553F8B7E /* LARSAdController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LARSAdController.m; path = Source/LARSAdController.m; sourceTree = "<group>"; };
+		06F1D7C42D5378CE4FD8F1C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		084E776EEC123B3B1D14B6A3 /* GADRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADRequestError.h"; sourceTree = "<group>"; };
+		0B0D5ECC8A955E34C766B476 /* TOLAdAdapterGoogleAds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOLAdAdapterGoogleAds.m; path = Source/TOLAdAdapterGoogleAds.m; sourceTree = "<group>"; };
+		0B6D7C61B6300670EEA81FF8 /* GADInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInterstitial.h"; sourceTree = "<group>"; };
+		0D1DD607FF1A4C254E60F509 /* Pods-DolarHoy-JBChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-DolarHoy-JBChartView-dummy.m"; path = "../Pods-DolarHoy-JBChartView/Pods-DolarHoy-JBChartView-dummy.m"; sourceTree = "<group>"; };
+		0E18E361789A63DC25ABD5D1 /* Pods-DolarHoy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DolarHoy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0ED98132E709E6DB0079AD7C /* GADSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSearchRequest.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Search/GADSearchRequest.h"; sourceTree = "<group>"; };
+		0F521F177BEC9C56EFD37867 /* libPods-DolarHoy-JBChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolarHoy-JBChartView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		146B128B27A9BA8C2271B814 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADAdNetworkExtras.h"; sourceTree = "<group>"; };
+		15188CD1EAFCFA5DB4919C71 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBannerDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventBannerDelegate.h"; sourceTree = "<group>"; };
+		1FDF6659200E41F974F61402 /* Pods-Dolar Hoy-LARSAdController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dolar Hoy-LARSAdController-dummy.m"; sourceTree = "<group>"; };
+		21877DA2F40D58CE61EAFAD9 /* GADInAppPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchase.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInAppPurchase.h"; sourceTree = "<group>"; };
+		21A7E6085A93EB9E3A88E783 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdSizeDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/GADAdSizeDelegate.h"; sourceTree = "<group>"; };
+		24281D67E94AF5680F3BEC0D /* TOLAdViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOLAdViewController.m; path = Source/TOLAdViewController.m; sourceTree = "<group>"; };
+		26A1CA307F47638D89B430C2 /* GADBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADBannerView.h"; sourceTree = "<group>"; };
+		274C20BB0A5E6838DA8E6628 /* Pods-Dolar Hoy-LARSAdController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dolar Hoy-LARSAdController.xcconfig"; sourceTree = "<group>"; };
+		2D77EDCCEE2FD98201EB4F21 /* libPods-DolarHoy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolarHoy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEA16F2D6914FCADA936B25 /* Pods-Dolar Hoy-JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dolar Hoy-JBChartView.xcconfig"; sourceTree = "<group>"; };
+		2F9D9D95C87DED91CBB262D5 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitialDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventInterstitialDelegate.h"; sourceTree = "<group>"; };
+		3298E46FAF760C7CF74E23C1 /* Pods-Dolar Hoy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dolar Hoy-resources.sh"; sourceTree = "<group>"; };
+		33B39A6995129D652F2A53D2 /* TOLAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOLAdAdapter.h; path = Source/TOLAdAdapter.h; sourceTree = "<group>"; };
+		3A193F81220AFA44513E722C /* Pods-DolarHoy-JBChartView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolarHoy-JBChartView-Private.xcconfig"; path = "../Pods-DolarHoy-JBChartView/Pods-DolarHoy-JBChartView-Private.xcconfig"; sourceTree = "<group>"; };
+		3A2E9B155F8390C5EA0B327A /* TOLAdAdapteriAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOLAdAdapteriAds.h; path = Source/TOLAdAdapteriAds.h; sourceTree = "<group>"; };
+		3E44AC5147FEB780AD67B94B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FFADAFE19BE2C06E78ABF51 /* Pods-Dolar Hoy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dolar Hoy-dummy.m"; sourceTree = "<group>"; };
+		4586562498BB275BDF9AEE9E /* GADRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADRequest.h"; sourceTree = "<group>"; };
+		464542AD24FEFBCFE89CEC14 /* Pods-Dolar Hoy-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dolar Hoy-environment.h"; sourceTree = "<group>"; };
+		483AFEBD5BEA7AD52FFFFDDB /* Pods-Dolar Hoy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dolar Hoy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F23DA76659485FBED8178A3 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAppEventDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/GADAppEventDelegate.h"; sourceTree = "<group>"; };
+		5086C5DBD2105DAE5E1A6D0A /* Pods-DolarHoy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DolarHoy-dummy.m"; sourceTree = "<group>"; };
+		5555FC887A6A6C830A3B0590 /* libPods-Dolar Hoy-JBChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dolar Hoy-JBChartView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C35E4612E044F9D58BBF28 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		594B0346654FFBEF94655AE5 /* GADSwipeableBannerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSwipeableBannerViewDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/GADSwipeableBannerViewDelegate.h"; sourceTree = "<group>"; };
+		5969F05EAC5D10D37DBD07CF /* GADAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADAdSize.h"; sourceTree = "<group>"; };
+		59AF4740B0B9D5D53DFAAAA6 /* GADModules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADModules.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADModules.h"; sourceTree = "<group>"; };
+		59C43AC3F9A3CCC093179011 /* TOLAdAdapteriAds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOLAdAdapteriAds.m; path = Source/TOLAdAdapteriAds.m; sourceTree = "<group>"; };
+		61698957B845007D35A3526F /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = "GoogleMobileAdsSdkiOS-6.12.2/libGoogleAdMobAds.a"; sourceTree = "<group>"; };
+		668D0112517434079F529F0E /* JBChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBChartView.m; path = Classes/JBChartView.m; sourceTree = "<group>"; };
+		6992363627654F97313F0880 /* TOLAdViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOLAdViewController.h; path = Source/TOLAdViewController.h; sourceTree = "<group>"; };
+		6BCEB04DD7A30C99CB702BB0 /* TOLAdAdapterGoogleAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOLAdAdapterGoogleAds.h; path = Source/TOLAdAdapterGoogleAds.h; sourceTree = "<group>"; };
+		7119CC348626564E5556BCE9 /* DFPInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPInterstitial.h"; sourceTree = "<group>"; };
+		7556D69584BC10BF1F8F0814 /* GADSearchBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSearchBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Search/GADSearchBannerView.h"; sourceTree = "<group>"; };
+		8788717B841E723EB1080E5E /* Pods-Dolar Hoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dolar Hoy.debug.xcconfig"; sourceTree = "<group>"; };
+		88C8AF0370AA6757519FD757 /* Pods-DolarHoy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DolarHoy-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FF2E914226C18BF76EA54A3 /* Pods-DolarHoy-JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolarHoy-JBChartView.xcconfig"; path = "../Pods-DolarHoy-JBChartView/Pods-DolarHoy-JBChartView.xcconfig"; sourceTree = "<group>"; };
+		96C45D6D5CDE4A2B45FC8D84 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventRequest.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventRequest.h"; sourceTree = "<group>"; };
+		987238A28BA4624AE8A17B1F /* libPods-Dolar Hoy-LARSAdController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dolar Hoy-LARSAdController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A498C20BE498542BDD4DEB62 /* Pods-DolarHoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DolarHoy.release.xcconfig"; sourceTree = "<group>"; };
+		A7F9B124763970421F496164 /* GADAdMobExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADAdMobExtras.h"; sourceTree = "<group>"; };
+		AD722C014A98E86A1D9B723E /* Pods-DolarHoy-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DolarHoy-environment.h"; sourceTree = "<group>"; };
+		AFAAF7E716C9AB947062AE59 /* Pods-Dolar Hoy-LARSAdController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dolar Hoy-LARSAdController-Private.xcconfig"; sourceTree = "<group>"; };
+		B04A87C059C60E4AA281C80B /* GADCustomEventExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventExtras.h"; sourceTree = "<group>"; };
+		B2235F497D403B97A1626A76 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4577F570628E015046979B3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		B4B66B0590F0B3D3BA20757A /* Pods-Dolar Hoy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dolar Hoy-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4BC6B8DC426A8D79B61E8E1 /* DFPBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPBannerView.h"; sourceTree = "<group>"; };
+		BB92EBDA00A0029FC35AB568 /* Pods-Dolar Hoy-JBChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dolar Hoy-JBChartView-prefix.pch"; sourceTree = "<group>"; };
+		BBD0CA258EE27326656746B4 /* Pods-Dolar Hoy-LARSAdController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dolar Hoy-LARSAdController-prefix.pch"; sourceTree = "<group>"; };
+		C1CEE417CDC79F3DA2A9E31A /* Pods-DolarHoy-JBChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DolarHoy-JBChartView-prefix.pch"; path = "../Pods-DolarHoy-JBChartView/Pods-DolarHoy-JBChartView-prefix.pch"; sourceTree = "<group>"; };
+		C2B7FC0E83F605A895ACB6B2 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBanner.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventBanner.h"; sourceTree = "<group>"; };
+		C313FDAC9F2BED29BF70AC74 /* JBChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBChartView.h; path = Classes/JBChartView.h; sourceTree = "<group>"; };
+		C418EC281F41DEFD10163A94 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/Mediation/GADCustomEventInterstitial.h"; sourceTree = "<group>"; };
+		C605D69E4A5477DCDC81D5D7 /* libPods-Dolar Hoy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dolar Hoy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95D96370E349E90DA1837E4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
+		CA591542CBD30C0805FA4E0C /* JBLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartView.h; path = Classes/JBLineChartView.h; sourceTree = "<group>"; };
+		CA7F0C681BDC555E6E377AA5 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInAppPurchaseDelegate.h"; sourceTree = "<group>"; };
+		CFBD85E98DE85219AB48196C /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADInterstitialDelegate.h"; sourceTree = "<group>"; };
+		D022387B94B81D1D58CC6C04 /* Pods-DolarHoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DolarHoy.debug.xcconfig"; sourceTree = "<group>"; };
+		D9733873C92D015101D39520 /* LARSAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LARSAdController.h; path = Source/LARSAdController.h; sourceTree = "<group>"; };
+		E0AAA38BABA3D505FB070DFE /* JBBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBBarChartView.m; path = Classes/JBBarChartView.m; sourceTree = "<group>"; };
+		E36B55F9462800EF38F36EC8 /* Pods-Dolar Hoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dolar Hoy.release.xcconfig"; sourceTree = "<group>"; };
+		E8B6E15CCBF0A364B4DD4A57 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		EBB8E33D8AE25E1EE4A0D79D /* DFPExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPExtras.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPExtras.h"; sourceTree = "<group>"; };
+		ECDFDA10A275467E2B19DD65 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = "GoogleMobileAdsSdkiOS-6.12.2/GADBannerViewDelegate.h"; sourceTree = "<group>"; };
+		EFEC4EB553A39FACFB84F9EF /* JBBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBBarChartView.h; path = Classes/JBBarChartView.h; sourceTree = "<group>"; };
+		F145E840C60EC560C90A0404 /* DFPSwipeableBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPSwipeableBannerView.h; path = "GoogleMobileAdsSdkiOS-6.12.2/Add-ons/DoubleClick/DFPSwipeableBannerView.h"; sourceTree = "<group>"; };
+		F6CE83309F026B0E5D4E7B20 /* Pods-DolarHoy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DolarHoy-resources.sh"; sourceTree = "<group>"; };
+		F85B23DED287A9EDD8818CB3 /* Pods-Dolar Hoy-JBChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dolar Hoy-JBChartView-dummy.m"; sourceTree = "<group>"; };
+		F9A69F3A7A8A71E0819EC1B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		F9EF8E6334A6D88DE3CD4E0B /* Pods-Dolar Hoy-JBChartView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dolar Hoy-JBChartView-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19896F11795D1F2C25ECC365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89911A03E8E61CDDCACBE64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CB6DC4912FAE4A70FBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B693BB52645440C81973580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DDC891F2A687238F0227B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5198ECA6682F6E8347B209D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346E50A4C9EF3CA3A21C5D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125122D3C6BB6D33F5F9C3E2 /* AudioToolbox.framework in Frameworks */,
+				346329DFAF611EE6A121C6C4 /* CoreGraphics.framework in Frameworks */,
+				89808B74053A9DDA78CD2ED0 /* Foundation.framework in Frameworks */,
+				DE1B356774B297337D7E761D /* MessageUI.framework in Frameworks */,
+				73952BA8683EC1F40DD1AA35 /* StoreKit.framework in Frameworks */,
+				DC10816416ACFCAC7F466C29 /* SystemConfiguration.framework in Frameworks */,
+				30543112568590B01C9D1886 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902B3DC744FF1C5FEE33E33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A40D9C39566F728B0F2C83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032B5BDA4B5EAF75D48103C7 /* GoogleAds */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEB04DD7A30C99CB702BB0 /* TOLAdAdapterGoogleAds.h */,
+				0B0D5ECC8A955E34C766B476 /* TOLAdAdapterGoogleAds.m */,
+			);
+			name = GoogleAds;
+			sourceTree = "<group>";
+		};
+		09D43877D4853883BB121AB8 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC6B8DC426A8D79B61E8E1 /* DFPBannerView.h */,
+				EBB8E33D8AE25E1EE4A0D79D /* DFPExtras.h */,
+				7119CC348626564E5556BCE9 /* DFPInterstitial.h */,
+				F145E840C60EC560C90A0404 /* DFPSwipeableBannerView.h */,
+				A7F9B124763970421F496164 /* GADAdMobExtras.h */,
+				146B128B27A9BA8C2271B814 /* GADAdNetworkExtras.h */,
+				5969F05EAC5D10D37DBD07CF /* GADAdSize.h */,
+				21A7E6085A93EB9E3A88E783 /* GADAdSizeDelegate.h */,
+				4F23DA76659485FBED8178A3 /* GADAppEventDelegate.h */,
+				26A1CA307F47638D89B430C2 /* GADBannerView.h */,
+				ECDFDA10A275467E2B19DD65 /* GADBannerViewDelegate.h */,
+				C2B7FC0E83F605A895ACB6B2 /* GADCustomEventBanner.h */,
+				15188CD1EAFCFA5DB4919C71 /* GADCustomEventBannerDelegate.h */,
+				B04A87C059C60E4AA281C80B /* GADCustomEventExtras.h */,
+				C418EC281F41DEFD10163A94 /* GADCustomEventInterstitial.h */,
+				2F9D9D95C87DED91CBB262D5 /* GADCustomEventInterstitialDelegate.h */,
+				96C45D6D5CDE4A2B45FC8D84 /* GADCustomEventRequest.h */,
+				21877DA2F40D58CE61EAFAD9 /* GADInAppPurchase.h */,
+				CA7F0C681BDC555E6E377AA5 /* GADInAppPurchaseDelegate.h */,
+				0B6D7C61B6300670EEA81FF8 /* GADInterstitial.h */,
+				CFBD85E98DE85219AB48196C /* GADInterstitialDelegate.h */,
+				59AF4740B0B9D5D53DFAAAA6 /* GADModules.h */,
+				4586562498BB275BDF9AEE9E /* GADRequest.h */,
+				084E776EEC123B3B1D14B6A3 /* GADRequestError.h */,
+				7556D69584BC10BF1F8F0814 /* GADSearchBannerView.h */,
+				0ED98132E709E6DB0079AD7C /* GADSearchRequest.h */,
+				594B0346654FFBEF94655AE5 /* GADSwipeableBannerViewDelegate.h */,
+				2F047FAD03CC62D0EDA29B5F /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		20A7FFF2441C1146148FE4FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				274C20BB0A5E6838DA8E6628 /* Pods-Dolar Hoy-LARSAdController.xcconfig */,
+				AFAAF7E716C9AB947062AE59 /* Pods-Dolar Hoy-LARSAdController-Private.xcconfig */,
+				1FDF6659200E41F974F61402 /* Pods-Dolar Hoy-LARSAdController-dummy.m */,
+				BBD0CA258EE27326656746B4 /* Pods-Dolar Hoy-LARSAdController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Dolar Hoy-LARSAdController";
+			sourceTree = "<group>";
+		};
+		20FF3391F4EB3ED06DFDD215 /* LARSAdController */ = {
+			isa = PBXGroup;
+			children = (
+				AD118EF5EE50862E9E74DEBC /* Core */,
+				032B5BDA4B5EAF75D48103C7 /* GoogleAds */,
+				20A7FFF2441C1146148FE4FF /* Support Files */,
+				713877CB9EA2619BB098AE8C /* iAds */,
+			);
+			path = LARSAdController;
+			sourceTree = "<group>";
+		};
+		2F047FAD03CC62D0EDA29B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61698957B845007D35A3526F /* libGoogleAdMobAds.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3180B4233D1092B41013D0C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEBEC9BE7FB7E57C2E291DFB /* Pods-Dolar Hoy */,
+				A15565DD26298E74E7C4C3E0 /* Pods-DolarHoy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		713877CB9EA2619BB098AE8C /* iAds */ = {
+			isa = PBXGroup;
+			children = (
+				3A2E9B155F8390C5EA0B327A /* TOLAdAdapteriAds.h */,
+				59C43AC3F9A3CCC093179011 /* TOLAdAdapteriAds.m */,
+			);
+			name = iAds;
+			sourceTree = "<group>";
+		};
+		71973BEB21C0A163E618DBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C605D69E4A5477DCDC81D5D7 /* libPods-Dolar Hoy.a */,
+				5555FC887A6A6C830A3B0590 /* libPods-Dolar Hoy-JBChartView.a */,
+				987238A28BA4624AE8A17B1F /* libPods-Dolar Hoy-LARSAdController.a */,
+				2D77EDCCEE2FD98201EB4F21 /* libPods-DolarHoy.a */,
+				0F521F177BEC9C56EFD37867 /* libPods-DolarHoy-JBChartView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F52492BD0BB383EA6978948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D43877D4853883BB121AB8 /* Google-Mobile-Ads-SDK */,
+				E1CFF93830B282469B6A5070 /* JBChartView */,
+				20FF3391F4EB3ED06DFDD215 /* LARSAdController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91B38621447D82D8AE2EE182 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA16F2D6914FCADA936B25 /* Pods-Dolar Hoy-JBChartView.xcconfig */,
+				F9EF8E6334A6D88DE3CD4E0B /* Pods-Dolar Hoy-JBChartView-Private.xcconfig */,
+				F85B23DED287A9EDD8818CB3 /* Pods-Dolar Hoy-JBChartView-dummy.m */,
+				BB92EBDA00A0029FC35AB568 /* Pods-Dolar Hoy-JBChartView-prefix.pch */,
+				8FF2E914226C18BF76EA54A3 /* Pods-DolarHoy-JBChartView.xcconfig */,
+				3A193F81220AFA44513E722C /* Pods-DolarHoy-JBChartView-Private.xcconfig */,
+				0D1DD607FF1A4C254E60F509 /* Pods-DolarHoy-JBChartView-dummy.m */,
+				C1CEE417CDC79F3DA2A9E31A /* Pods-DolarHoy-JBChartView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Dolar Hoy-JBChartView";
+			sourceTree = "<group>";
+		};
+		A15565DD26298E74E7C4C3E0 /* Pods-DolarHoy */ = {
+			isa = PBXGroup;
+			children = (
+				0E18E361789A63DC25ABD5D1 /* Pods-DolarHoy-acknowledgements.markdown */,
+				88C8AF0370AA6757519FD757 /* Pods-DolarHoy-acknowledgements.plist */,
+				5086C5DBD2105DAE5E1A6D0A /* Pods-DolarHoy-dummy.m */,
+				AD722C014A98E86A1D9B723E /* Pods-DolarHoy-environment.h */,
+				F6CE83309F026B0E5D4E7B20 /* Pods-DolarHoy-resources.sh */,
+				D022387B94B81D1D58CC6C04 /* Pods-DolarHoy.debug.xcconfig */,
+				A498C20BE498542BDD4DEB62 /* Pods-DolarHoy.release.xcconfig */,
+			);
+			name = "Pods-DolarHoy";
+			path = "Target Support Files/Pods-DolarHoy";
+			sourceTree = "<group>";
+		};
+		AD118EF5EE50862E9E74DEBC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D9733873C92D015101D39520 /* LARSAdController.h */,
+				04386FF5EA5ED44D553F8B7E /* LARSAdController.m */,
+				33B39A6995129D652F2A53D2 /* TOLAdAdapter.h */,
+				6992363627654F97313F0880 /* TOLAdViewController.h */,
+				24281D67E94AF5680F3BEC0D /* TOLAdViewController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B364E5897F5CD3E642D7D411 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9A69F3A7A8A71E0819EC1B6 /* AudioToolbox.framework */,
+				55C35E4612E044F9D58BBF28 /* CoreGraphics.framework */,
+				3E44AC5147FEB780AD67B94B /* Foundation.framework */,
+				B4577F570628E015046979B3 /* MessageUI.framework */,
+				E8B6E15CCBF0A364B4DD4A57 /* StoreKit.framework */,
+				06F1D7C42D5378CE4FD8F1C7 /* SystemConfiguration.framework */,
+				C95D96370E349E90DA1837E4 /* iAd.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BEBEC9BE7FB7E57C2E291DFB /* Pods-Dolar Hoy */ = {
+			isa = PBXGroup;
+			children = (
+				483AFEBD5BEA7AD52FFFFDDB /* Pods-Dolar Hoy-acknowledgements.markdown */,
+				B4B66B0590F0B3D3BA20757A /* Pods-Dolar Hoy-acknowledgements.plist */,
+				3FFADAFE19BE2C06E78ABF51 /* Pods-Dolar Hoy-dummy.m */,
+				464542AD24FEFBCFE89CEC14 /* Pods-Dolar Hoy-environment.h */,
+				3298E46FAF760C7CF74E23C1 /* Pods-Dolar Hoy-resources.sh */,
+				8788717B841E723EB1080E5E /* Pods-Dolar Hoy.debug.xcconfig */,
+				E36B55F9462800EF38F36EC8 /* Pods-Dolar Hoy.release.xcconfig */,
+			);
+			name = "Pods-Dolar Hoy";
+			path = "Target Support Files/Pods-Dolar Hoy";
+			sourceTree = "<group>";
+		};
+		DA37A33C721A7FB341CCA0C3 = {
+			isa = PBXGroup;
+			children = (
+				B2235F497D403B97A1626A76 /* Podfile */,
+				F96A4BE4993630988910E7B5 /* Frameworks */,
+				8F52492BD0BB383EA6978948 /* Pods */,
+				71973BEB21C0A163E618DBAD /* Products */,
+				3180B4233D1092B41013D0C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CFF93830B282469B6A5070 /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				EFEC4EB553A39FACFB84F9EF /* JBBarChartView.h */,
+				E0AAA38BABA3D505FB070DFE /* JBBarChartView.m */,
+				C313FDAC9F2BED29BF70AC74 /* JBChartView.h */,
+				668D0112517434079F529F0E /* JBChartView.m */,
+				CA591542CBD30C0805FA4E0C /* JBLineChartView.h */,
+				00C2F3490E601D7E4FA222CC /* JBLineChartView.m */,
+				91B38621447D82D8AE2EE182 /* Support Files */,
+			);
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+		F96A4BE4993630988910E7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B364E5897F5CD3E642D7D411 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		253F1186A93A99675424E84E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F173790104E0FADA3303C510 /* JBBarChartView.h in Headers */,
+				E995A0A2C252B25A5EC6C9A4 /* JBChartView.h in Headers */,
+				79F7791817996BF4E7698667 /* JBLineChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40CBEF80CAF7E1E8F77F8F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC6035087D73BBA1E595AEB /* JBBarChartView.h in Headers */,
+				B5A56899BC25BFFB79E696C5 /* JBChartView.h in Headers */,
+				B8C88053D254FDC22E328BA8 /* JBLineChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B099B2E7F2881CB0DB9B99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DD98494306A0E64275278C /* LARSAdController.h in Headers */,
+				8BA7D392407C8462B7917701 /* TOLAdAdapter.h in Headers */,
+				21C63245D09796936CAABB36 /* TOLAdAdapterGoogleAds.h in Headers */,
+				7DE4EFA57ACE2328B0C93249 /* TOLAdAdapteriAds.h in Headers */,
+				C3AABA0C66522022CE6C35CE /* TOLAdViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19FE1EB63E1767FBF53BE223 /* Pods-Dolar Hoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E159A5A5AB5C51444723E02 /* Build configuration list for PBXNativeTarget "Pods-Dolar Hoy" */;
+			buildPhases = (
+				FFE403F823838B108F3AE467 /* Sources */,
+				19896F11795D1F2C25ECC365 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D3AEE02D07791989B92D65 /* PBXTargetDependency */,
+				44232C8C1A929BB6C633FEC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Dolar Hoy";
+			productName = "Pods-Dolar Hoy";
+			productReference = C605D69E4A5477DCDC81D5D7 /* libPods-Dolar Hoy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3D7A0B73015A1F02F4A53BCB /* Pods-Dolar Hoy-LARSAdController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABF6D1D2A29CF5BBF4F081E /* Build configuration list for PBXNativeTarget "Pods-Dolar Hoy-LARSAdController" */;
+			buildPhases = (
+				A9158FC41BEB7BC8484CC616 /* Sources */,
+				346E50A4C9EF3CA3A21C5D2C /* Frameworks */,
+				F8B099B2E7F2881CB0DB9B99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dolar Hoy-LARSAdController";
+			productName = "Pods-Dolar Hoy-LARSAdController";
+			productReference = 987238A28BA4624AE8A17B1F /* libPods-Dolar Hoy-LARSAdController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		626A0689DC1CD4153BA52B7C /* Pods-DolarHoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17819FBFDB157308E58B7AB /* Build configuration list for PBXNativeTarget "Pods-DolarHoy" */;
+			buildPhases = (
+				AE47A8E791133265C49663B7 /* Sources */,
+				1C6CB6DC4912FAE4A70FBF3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE24BE5666CD19028AFA858 /* PBXTargetDependency */,
+			);
+			name = "Pods-DolarHoy";
+			productName = "Pods-DolarHoy";
+			productReference = 2D77EDCCEE2FD98201EB4F21 /* libPods-DolarHoy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B08C912DD01B6059199FE293 /* Pods-Dolar Hoy-JBChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CF291C5FA3B173297DD954 /* Build configuration list for PBXNativeTarget "Pods-Dolar Hoy-JBChartView" */;
+			buildPhases = (
+				56E7EBBE3FFF84D1F9A7FB80 /* Sources */,
+				902B3DC744FF1C5FEE33E33E /* Frameworks */,
+				253F1186A93A99675424E84E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Dolar Hoy-JBChartView";
+			productName = "Pods-Dolar Hoy-JBChartView";
+			productReference = 5555FC887A6A6C830A3B0590 /* libPods-Dolar Hoy-JBChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7D3E6889FC1345819BFCE7D /* Pods-DolarHoy-JBChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76027E659A9E75E0FECD3CCE /* Build configuration list for PBXNativeTarget "Pods-DolarHoy-JBChartView" */;
+			buildPhases = (
+				EFC5BC1E7E60FF4E81D99FAB /* Sources */,
+				29DDC891F2A687238F0227B5 /* Frameworks */,
+				D40CBEF80CAF7E1E8F77F8F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DolarHoy-JBChartView";
+			productName = "Pods-DolarHoy-JBChartView";
+			productReference = 0F521F177BEC9C56EFD37867 /* libPods-DolarHoy-JBChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB3CAAC97B48D57DAFA1724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = B0249AAF4C2068128E6A1EFA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA37A33C721A7FB341CCA0C3;
+			productRefGroup = 71973BEB21C0A163E618DBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19FE1EB63E1767FBF53BE223 /* Pods-Dolar Hoy */,
+				B08C912DD01B6059199FE293 /* Pods-Dolar Hoy-JBChartView */,
+				3D7A0B73015A1F02F4A53BCB /* Pods-Dolar Hoy-LARSAdController */,
+				626A0689DC1CD4153BA52B7C /* Pods-DolarHoy */,
+				C7D3E6889FC1345819BFCE7D /* Pods-DolarHoy-JBChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E7EBBE3FFF84D1F9A7FB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A5FB6C2D3BBE50BFC0B321 /* JBBarChartView.m in Sources */,
+				CB73B5128E53F473A1B07DA3 /* JBChartView.m in Sources */,
+				643F579558CEA77549A92620 /* JBLineChartView.m in Sources */,
+				7C21DF8166EBC78EF0701497 /* Pods-Dolar Hoy-JBChartView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9158FC41BEB7BC8484CC616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498EEBC338B1491D56F757C8 /* LARSAdController.m in Sources */,
+				A57590BBA570200E8903618B /* Pods-Dolar Hoy-LARSAdController-dummy.m in Sources */,
+				04C216B907B4AAA9A20D524C /* TOLAdAdapterGoogleAds.m in Sources */,
+				30011F6C2E24AB14233CF832 /* TOLAdAdapteriAds.m in Sources */,
+				9BE2247B206ECB080A3DDA3B /* TOLAdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE47A8E791133265C49663B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8E5981F4133A1CF06D8F34 /* Pods-DolarHoy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC5BC1E7E60FF4E81D99FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEF6DAD5D4559ACF24AC2DB /* JBBarChartView.m in Sources */,
+				35DDB74CD019DD390DA9ACE6 /* JBChartView.m in Sources */,
+				3CD7A56BFCC9EF8658C8D40B /* JBLineChartView.m in Sources */,
+				40CAF37C84DA969A50851BB9 /* Pods-DolarHoy-JBChartView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE403F823838B108F3AE467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DD60B433165D4E52CB7788 /* Pods-Dolar Hoy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BE24BE5666CD19028AFA858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DolarHoy-JBChartView";
+			target = C7D3E6889FC1345819BFCE7D /* Pods-DolarHoy-JBChartView */;
+			targetProxy = 4B2E998487E7D758906B9446 /* PBXContainerItemProxy */;
+		};
+		44232C8C1A929BB6C633FEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Dolar Hoy-LARSAdController";
+			target = 3D7A0B73015A1F02F4A53BCB /* Pods-Dolar Hoy-LARSAdController */;
+			targetProxy = CDC6F536551723FD9F8211F5 /* PBXContainerItemProxy */;
+		};
+		C1D3AEE02D07791989B92D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Dolar Hoy-JBChartView";
+			target = B08C912DD01B6059199FE293 /* Pods-Dolar Hoy-JBChartView */;
+			targetProxy = 7EF3413FC6632EE5F30FA5B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06F73357C5BCCB0F2477F321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A193F81220AFA44513E722C /* Pods-DolarHoy-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DolarHoy-JBChartView/Pods-DolarHoy-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		096B39F8ED7A1F61137AAA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C73FFD46FCB9A46D74DB764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36B55F9462800EF38F36EC8 /* Pods-Dolar Hoy.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		608EF8F3B9946E5FDCB6591B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65631EE90DCE59AD6CD63585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A193F81220AFA44513E722C /* Pods-DolarHoy-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DolarHoy-JBChartView/Pods-DolarHoy-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70AA03E521D4177DE7A28384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EF8E6334A6D88DE3CD4E0B /* Pods-Dolar Hoy-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Dolar Hoy-JBChartView/Pods-Dolar Hoy-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		726A159C913ED5E5488E43C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8788717B841E723EB1080E5E /* Pods-Dolar Hoy.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9998366E6B700389320BA0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAAF7E716C9AB947062AE59 /* Pods-Dolar Hoy-LARSAdController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Dolar Hoy-LARSAdController/Pods-Dolar Hoy-LARSAdController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B8ED9BBD7354860C0E215C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D022387B94B81D1D58CC6C04 /* Pods-DolarHoy.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6FCA63C8601F2D4473D890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A498C20BE498542BDD4DEB62 /* Pods-DolarHoy.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D8600F8C0778DB7D3137FFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EF8E6334A6D88DE3CD4E0B /* Pods-Dolar Hoy-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Dolar Hoy-JBChartView/Pods-Dolar Hoy-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA3C8BD507BF3E80D61CC60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAAF7E716C9AB947062AE59 /* Pods-Dolar Hoy-LARSAdController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Dolar Hoy-LARSAdController/Pods-Dolar Hoy-LARSAdController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E159A5A5AB5C51444723E02 /* Build configuration list for PBXNativeTarget "Pods-Dolar Hoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726A159C913ED5E5488E43C9 /* Debug */,
+				2C73FFD46FCB9A46D74DB764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76027E659A9E75E0FECD3CCE /* Build configuration list for PBXNativeTarget "Pods-DolarHoy-JBChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F73357C5BCCB0F2477F321 /* Debug */,
+				65631EE90DCE59AD6CD63585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABF6D1D2A29CF5BBF4F081E /* Build configuration list for PBXNativeTarget "Pods-Dolar Hoy-LARSAdController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9998366E6B700389320BA0C1 /* Debug */,
+				DA3C8BD507BF3E80D61CC60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0249AAF4C2068128E6A1EFA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096B39F8ED7A1F61137AAA43 /* Debug */,
+				608EF8F3B9946E5FDCB6591B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CF291C5FA3B173297DD954 /* Build configuration list for PBXNativeTarget "Pods-Dolar Hoy-JBChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AA03E521D4177DE7A28384 /* Debug */,
+				D8600F8C0778DB7D3137FFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17819FBFDB157308E58B7AB /* Build configuration list for PBXNativeTarget "Pods-DolarHoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8ED9BBD7354860C0E215C6 /* Debug */,
+				D6FCA63C8601F2D4473D890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB3CAAC97B48D57DAFA1724 /* Project object */;
+}

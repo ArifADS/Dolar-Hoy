@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Dolar Hoy-JBChartView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Dolar Hoy-LARSAdController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Dolar Hoy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DolarHoy-JBChartView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DolarHoy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>19FE1EB63E1767FBF53BE223</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D7A0B73015A1F02F4A53BCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>626A0689DC1CD4153BA52B7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B08C912DD01B6059199FE293</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7D3E6889FC1345819BFCE7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

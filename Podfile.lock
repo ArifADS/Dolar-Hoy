@@ -1,0 +1,25 @@
+PODS:
+  - Google-Mobile-Ads-SDK (6.12.2)
+  - JBChartView (2.8.14)
+  - LARSAdController (3.0.7):
+    - LARSAdController/Core (= 3.0.7)
+    - LARSAdController/GoogleAds (= 3.0.7)
+    - LARSAdController/iAds (= 3.0.7)
+  - LARSAdController/Core (3.0.7)
+  - LARSAdController/GoogleAds (3.0.7):
+    - Google-Mobile-Ads-SDK
+    - LARSAdController/Core
+  - LARSAdController/iAds (3.0.7):
+    - LARSAdController/Core
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK (~> 6.0)
+  - JBChartView
+  - LARSAdController (~> 3.0)
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 40217793219e3466f24cb884d1d44023f37a20ee
+  JBChartView: e89eabe6aefabd863ea345f3cedbfb773674647c
+  LARSAdController: aeec9185f9e21f383f4da1cd85d688198cb4c93a
+
+COCOAPODS: 0.37.1

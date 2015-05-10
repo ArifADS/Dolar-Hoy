@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //LARSAdController.sharedManager().registerAdClass(TOLAdAdapteriAds) //ca-app-pub-7373768948605183/1268951558
+        //LARSAdController.sharedManager().registerAdClass(TOLAdAdapterGoogleAds.self, withPublisherId: "ca-app-pub-7373768948605183/1268951558")
+        
+        /*[[LARSAdController sharedManager] registerAdClass:[TOLAdAdapteriAds class]];
+        [[LARSAdController sharedManager] registerAdClass:[TOLAdAdapterGoogleAds class] withPublisherId:publisherId];*/
+        
         return true
     }
 

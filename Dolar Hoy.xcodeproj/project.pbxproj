@@ -13,6 +13,33 @@
 		280B47AE1AEC28310044CA0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280B47AD1AEC28310044CA0F /* Images.xcassets */; };
 		280B47B11AEC28310044CA0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280B47AF1AEC28310044CA0F /* LaunchScreen.xib */; };
 		280B47BD1AEC28310044CA0F /* Dolar_HoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B47BC1AEC28310044CA0F /* Dolar_HoyTests.swift */; };
+		280B47CD1AEC2ED60044CA0F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280B47CC1AEC2ED60044CA0F /* NotificationCenter.framework */; };
+		280B47D21AEC2ED60044CA0F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B47D11AEC2ED60044CA0F /* TodayViewController.swift */; };
+		280B47D41AEC2ED60044CA0F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280B47D31AEC2ED60044CA0F /* MainInterface.storyboard */; };
+		280B47D71AEC2ED60044CA0F /* DolarHoy.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 280B47CA1AEC2ED60044CA0F /* DolarHoy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		28902AA61AFAAB3B00E39243 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28902A931AFAAB3B00E39243 /* Info.plist */; };
+		28902AA71AFAAB3B00E39243 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A941AFAAB3B00E39243 /* LTCharacterLimbo.swift */; };
+		28902AA81AFAAB3B00E39243 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A951AFAAB3B00E39243 /* LTEasing.swift */; };
+		28902AA91AFAAB3B00E39243 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A961AFAAB3B00E39243 /* LTEmitterView.swift */; };
+		28902AAA1AFAAB3B00E39243 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A971AFAAB3B00E39243 /* LTMorphingEffect.swift */; };
+		28902AAB1AFAAB3B00E39243 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A981AFAAB3B00E39243 /* LTMorphingLabel+Anvil.swift */; };
+		28902AAC1AFAAB3B00E39243 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A991AFAAB3B00E39243 /* LTMorphingLabel+Burn.swift */; };
+		28902AAD1AFAAB3B00E39243 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A9A1AFAAB3B00E39243 /* LTMorphingLabel+Evaporate.swift */; };
+		28902AAE1AFAAB3B00E39243 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A9B1AFAAB3B00E39243 /* LTMorphingLabel+Fall.swift */; };
+		28902AAF1AFAAB3B00E39243 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A9C1AFAAB3B00E39243 /* LTMorphingLabel+Pixelate.swift */; };
+		28902AB01AFAAB3B00E39243 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A9D1AFAAB3B00E39243 /* LTMorphingLabel+Sparkle.swift */; };
+		28902AB11AFAAB3B00E39243 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902A9F1AFAAB3B00E39243 /* LTMorphingLabel.swift */; };
+		28902AB21AFAAB3B00E39243 /* NSString+LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28902AA01AFAAB3B00E39243 /* NSString+LTMorphingLabel.swift */; };
+		28902AB31AFAAB3B00E39243 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 28902AA21AFAAB3B00E39243 /* Fire.png */; };
+		28902AB41AFAAB3B00E39243 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 28902AA31AFAAB3B00E39243 /* Fragment.png */; };
+		28902AB51AFAAB3B00E39243 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 28902AA41AFAAB3B00E39243 /* Smoke.png */; };
+		28902AB61AFAAB3B00E39243 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 28902AA51AFAAB3B00E39243 /* Sparkle.png */; };
+		289CC5C91AF0574A00C9A1C8 /* DolarToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CC5C81AF0574A00C9A1C8 /* DolarToday.swift */; };
+		289CC5CA1AF0576700C9A1C8 /* DolarToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CC5C81AF0574A00C9A1C8 /* DolarToday.swift */; };
+		28CF2A0E1AF99A28001AB219 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF2A0D1AF99A28001AB219 /* Extensions.swift */; };
+		28CF2A0F1AF99A28001AB219 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CF2A0D1AF99A28001AB219 /* Extensions.swift */; };
+		442F1F360FA531BA67F15C70 /* libPods-DolarHoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E914D5573E633C20A6BC02E /* libPods-DolarHoy.a */; };
+		922AA84516D6490C7C9823FF /* libPods-Dolar Hoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F9356E5E8A5782BF643E3 /* libPods-Dolar Hoy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +50,31 @@
 			remoteGlobalIDString = 280B47A01AEC28310044CA0F;
 			remoteInfo = "Dolar Hoy";
 		};
+		280B47D51AEC2ED60044CA0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B47991AEC28310044CA0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280B47C91AEC2ED60044CA0F;
+			remoteInfo = DolarHoy;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		280B47DB1AEC2ED60044CA0F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				280B47D71AEC2ED60044CA0F /* DolarHoy.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1142227419129B5200D846E7 /* Pods-DolarHoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolarHoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DolarHoy/Pods-DolarHoy.debug.xcconfig"; sourceTree = "<group>"; };
 		280B47A11AEC28310044CA0F /* Dolar Hoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dolar Hoy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		280B47A51AEC28310044CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		280B47A61AEC28310044CA0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +85,38 @@
 		280B47B61AEC28310044CA0F /* Dolar HoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dolar HoyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		280B47BB1AEC28310044CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		280B47BC1AEC28310044CA0F /* Dolar_HoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolar_HoyTests.swift; sourceTree = "<group>"; };
+		280B47CA1AEC2ED60044CA0F /* DolarHoy.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DolarHoy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		280B47CC1AEC2ED60044CA0F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		280B47D01AEC2ED60044CA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280B47D11AEC2ED60044CA0F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		280B47D31AEC2ED60044CA0F /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		28902A931AFAAB3B00E39243 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28902A941AFAAB3B00E39243 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		28902A951AFAAB3B00E39243 /* LTEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEasing.swift; sourceTree = "<group>"; };
+		28902A961AFAAB3B00E39243 /* LTEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEmitterView.swift; sourceTree = "<group>"; };
+		28902A971AFAAB3B00E39243 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingEffect.swift; sourceTree = "<group>"; };
+		28902A981AFAAB3B00E39243 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		28902A991AFAAB3B00E39243 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		28902A9A1AFAAB3B00E39243 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		28902A9B1AFAAB3B00E39243 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		28902A9C1AFAAB3B00E39243 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		28902A9D1AFAAB3B00E39243 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		28902A9E1AFAAB3B00E39243 /* LTMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMorphingLabel.h; sourceTree = "<group>"; };
+		28902A9F1AFAAB3B00E39243 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingLabel.swift; sourceTree = "<group>"; };
+		28902AA01AFAAB3B00E39243 /* NSString+LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+LTMorphingLabel.swift"; sourceTree = "<group>"; };
+		28902AA21AFAAB3B00E39243 /* Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fire.png; sourceTree = "<group>"; };
+		28902AA31AFAAB3B00E39243 /* Fragment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fragment.png; sourceTree = "<group>"; };
+		28902AA41AFAAB3B00E39243 /* Smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke.png; sourceTree = "<group>"; };
+		28902AA51AFAAB3B00E39243 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+		289CC5C81AF0574A00C9A1C8 /* DolarToday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolarToday.swift; sourceTree = "<group>"; };
+		289E6DFD1AFA95B30005BB06 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.2.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		28CF2A091AF99060001AB219 /* Dolar Hoy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dolar Hoy-Bridging-Header.h"; sourceTree = "<group>"; };
+		28CF2A0D1AF99A28001AB219 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		841BED310199948B0E6F0F9B /* Pods-Dolar Hoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dolar Hoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dolar Hoy/Pods-Dolar Hoy.release.xcconfig"; sourceTree = "<group>"; };
+		8C6CBEE1DCB87B59605C5B42 /* Pods-Dolar Hoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dolar Hoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dolar Hoy/Pods-Dolar Hoy.debug.xcconfig"; sourceTree = "<group>"; };
+		8E914D5573E633C20A6BC02E /* libPods-DolarHoy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DolarHoy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83F9356E5E8A5782BF643E3 /* libPods-Dolar Hoy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dolar Hoy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA2570CDE2364F124E4990A /* Pods-DolarHoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolarHoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-DolarHoy/Pods-DolarHoy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922AA84516D6490C7C9823FF /* libPods-Dolar Hoy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +132,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280B47C71AEC2ED60044CA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280B47CD1AEC2ED60044CA0F /* NotificationCenter.framework in Frameworks */,
+				442F1F360FA531BA67F15C70 /* libPods-DolarHoy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +152,10 @@
 			children = (
 				280B47A31AEC28310044CA0F /* Dolar Hoy */,
 				280B47B91AEC28310044CA0F /* Dolar HoyTests */,
+				280B47CE1AEC2ED60044CA0F /* DolarHoy */,
+				280B47CB1AEC2ED60044CA0F /* Frameworks */,
 				280B47A21AEC28310044CA0F /* Products */,
+				5798AC51D23DD6952638A141 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +164,7 @@
 			children = (
 				280B47A11AEC28310044CA0F /* Dolar Hoy.app */,
 				280B47B61AEC28310044CA0F /* Dolar HoyTests.xctest */,
+				280B47CA1AEC2ED60044CA0F /* DolarHoy.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +172,16 @@
 		280B47A31AEC28310044CA0F /* Dolar Hoy */ = {
 			isa = PBXGroup;
 			children = (
+				28902A921AFAAB3B00E39243 /* LTMorphingLabel */,
 				280B47A61AEC28310044CA0F /* AppDelegate.swift */,
 				280B47A81AEC28310044CA0F /* ViewController.swift */,
 				280B47AA1AEC28310044CA0F /* Main.storyboard */,
 				280B47AD1AEC28310044CA0F /* Images.xcassets */,
 				280B47AF1AEC28310044CA0F /* LaunchScreen.xib */,
 				280B47A41AEC28310044CA0F /* Supporting Files */,
+				289CC5C81AF0574A00C9A1C8 /* DolarToday.swift */,
+				28CF2A0D1AF99A28001AB219 /* Extensions.swift */,
+				28CF2A091AF99060001AB219 /* Dolar Hoy-Bridging-Header.h */,
 			);
 			path = "Dolar Hoy";
 			sourceTree = "<group>";
@@ -112,6 +211,79 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		280B47CB1AEC2ED60044CA0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				289E6DFD1AFA95B30005BB06 /* GoogleMobileAds.framework */,
+				280B47CC1AEC2ED60044CA0F /* NotificationCenter.framework */,
+				8E914D5573E633C20A6BC02E /* libPods-DolarHoy.a */,
+				A83F9356E5E8A5782BF643E3 /* libPods-Dolar Hoy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280B47CE1AEC2ED60044CA0F /* DolarHoy */ = {
+			isa = PBXGroup;
+			children = (
+				280B47D11AEC2ED60044CA0F /* TodayViewController.swift */,
+				280B47D31AEC2ED60044CA0F /* MainInterface.storyboard */,
+				280B47CF1AEC2ED60044CA0F /* Supporting Files */,
+			);
+			path = DolarHoy;
+			sourceTree = "<group>";
+		};
+		280B47CF1AEC2ED60044CA0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280B47D01AEC2ED60044CA0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28902A921AFAAB3B00E39243 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				28902A931AFAAB3B00E39243 /* Info.plist */,
+				28902A941AFAAB3B00E39243 /* LTCharacterLimbo.swift */,
+				28902A951AFAAB3B00E39243 /* LTEasing.swift */,
+				28902A961AFAAB3B00E39243 /* LTEmitterView.swift */,
+				28902A971AFAAB3B00E39243 /* LTMorphingEffect.swift */,
+				28902A981AFAAB3B00E39243 /* LTMorphingLabel+Anvil.swift */,
+				28902A991AFAAB3B00E39243 /* LTMorphingLabel+Burn.swift */,
+				28902A9A1AFAAB3B00E39243 /* LTMorphingLabel+Evaporate.swift */,
+				28902A9B1AFAAB3B00E39243 /* LTMorphingLabel+Fall.swift */,
+				28902A9C1AFAAB3B00E39243 /* LTMorphingLabel+Pixelate.swift */,
+				28902A9D1AFAAB3B00E39243 /* LTMorphingLabel+Sparkle.swift */,
+				28902A9E1AFAAB3B00E39243 /* LTMorphingLabel.h */,
+				28902A9F1AFAAB3B00E39243 /* LTMorphingLabel.swift */,
+				28902AA01AFAAB3B00E39243 /* NSString+LTMorphingLabel.swift */,
+				28902AA11AFAAB3B00E39243 /* Particles */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		28902AA11AFAAB3B00E39243 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				28902AA21AFAAB3B00E39243 /* Fire.png */,
+				28902AA31AFAAB3B00E39243 /* Fragment.png */,
+				28902AA41AFAAB3B00E39243 /* Smoke.png */,
+				28902AA51AFAAB3B00E39243 /* Sparkle.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		5798AC51D23DD6952638A141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1142227419129B5200D846E7 /* Pods-DolarHoy.debug.xcconfig */,
+				EAA2570CDE2364F124E4990A /* Pods-DolarHoy.release.xcconfig */,
+				8C6CBEE1DCB87B59605C5B42 /* Pods-Dolar Hoy.debug.xcconfig */,
+				841BED310199948B0E6F0F9B /* Pods-Dolar Hoy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,13 +291,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 280B47C01AEC28310044CA0F /* Build configuration list for PBXNativeTarget "Dolar Hoy" */;
 			buildPhases = (
+				140637DF6978E1AB591A1BDD /* Check Pods Manifest.lock */,
 				280B479D1AEC28310044CA0F /* Sources */,
 				280B479E1AEC28310044CA0F /* Frameworks */,
 				280B479F1AEC28310044CA0F /* Resources */,
+				280B47DB1AEC2ED60044CA0F /* Embed App Extensions */,
+				DCA962B9B91DB20F4E4CC219 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				280B47D61AEC2ED60044CA0F /* PBXTargetDependency */,
 			);
 			name = "Dolar Hoy";
 			productName = "Dolar Hoy";
@@ -150,6 +326,25 @@
 			productReference = 280B47B61AEC28310044CA0F /* Dolar HoyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		280B47C91AEC2ED60044CA0F /* DolarHoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280B47D81AEC2ED60044CA0F /* Build configuration list for PBXNativeTarget "DolarHoy" */;
+			buildPhases = (
+				BCFE10475E818D6881252943 /* Check Pods Manifest.lock */,
+				280B47C61AEC2ED60044CA0F /* Sources */,
+				280B47C71AEC2ED60044CA0F /* Frameworks */,
+				280B47C81AEC2ED60044CA0F /* Resources */,
+				DB78D3EE3256B17C4A5991FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolarHoy;
+			productName = DolarHoy;
+			productReference = 280B47CA1AEC2ED60044CA0F /* DolarHoy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +356,15 @@
 				TargetAttributes = {
 					280B47A01AEC28310044CA0F = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T3FL6FH4BC;
 					};
 					280B47B51AEC28310044CA0F = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 280B47A01AEC28310044CA0F;
+					};
+					280B47C91AEC2ED60044CA0F = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T3FL6FH4BC;
 					};
 				};
 			};
@@ -183,6 +383,7 @@
 			targets = (
 				280B47A01AEC28310044CA0F /* Dolar Hoy */,
 				280B47B51AEC28310044CA0F /* Dolar HoyTests */,
+				280B47C91AEC2ED60044CA0F /* DolarHoy */,
 			);
 		};
 /* End PBXProject section */
@@ -192,8 +393,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28902AB61AFAAB3B00E39243 /* Sparkle.png in Resources */,
+				28902AA61AFAAB3B00E39243 /* Info.plist in Resources */,
+				28902AB41AFAAB3B00E39243 /* Fragment.png in Resources */,
 				280B47AC1AEC28310044CA0F /* Main.storyboard in Resources */,
+				28902AB31AFAAB3B00E39243 /* Fire.png in Resources */,
 				280B47B11AEC28310044CA0F /* LaunchScreen.xib in Resources */,
+				28902AB51AFAAB3B00E39243 /* Smoke.png in Resources */,
 				280B47AE1AEC28310044CA0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,15 +411,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		280B47C81AEC2ED60044CA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280B47D41AEC2ED60044CA0F /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140637DF6978E1AB591A1BDD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCFE10475E818D6881252943 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB78D3EE3256B17C4A5991FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DolarHoy/Pods-DolarHoy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA962B9B91DB20F4E4CC219 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dolar Hoy/Pods-Dolar Hoy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		280B479D1AEC28310044CA0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28902AB21AFAAB3B00E39243 /* NSString+LTMorphingLabel.swift in Sources */,
 				280B47A91AEC28310044CA0F /* ViewController.swift in Sources */,
+				289CC5C91AF0574A00C9A1C8 /* DolarToday.swift in Sources */,
+				28902AAA1AFAAB3B00E39243 /* LTMorphingEffect.swift in Sources */,
+				28902AAF1AFAAB3B00E39243 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				28902AA81AFAAB3B00E39243 /* LTEasing.swift in Sources */,
+				28902AA71AFAAB3B00E39243 /* LTCharacterLimbo.swift in Sources */,
+				28902AAC1AFAAB3B00E39243 /* LTMorphingLabel+Burn.swift in Sources */,
+				28902AA91AFAAB3B00E39243 /* LTEmitterView.swift in Sources */,
+				28902AAE1AFAAB3B00E39243 /* LTMorphingLabel+Fall.swift in Sources */,
 				280B47A71AEC28310044CA0F /* AppDelegate.swift in Sources */,
+				28CF2A0E1AF99A28001AB219 /* Extensions.swift in Sources */,
+				28902AAB1AFAAB3B00E39243 /* LTMorphingLabel+Anvil.swift in Sources */,
+				28902AAD1AFAAB3B00E39243 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				28902AB11AFAAB3B00E39243 /* LTMorphingLabel.swift in Sources */,
+				28902AB01AFAAB3B00E39243 /* LTMorphingLabel+Sparkle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +516,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		280B47C61AEC2ED60044CA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289CC5CA1AF0576700C9A1C8 /* DolarToday.swift in Sources */,
+				28CF2A0F1AF99A28001AB219 /* Extensions.swift in Sources */,
+				280B47D21AEC2ED60044CA0F /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +533,11 @@
 			isa = PBXTargetDependency;
 			target = 280B47A01AEC28310044CA0F /* Dolar Hoy */;
 			targetProxy = 280B47B71AEC28310044CA0F /* PBXContainerItemProxy */;
+		};
+		280B47D61AEC2ED60044CA0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280B47C91AEC2ED60044CA0F /* DolarHoy */;
+			targetProxy = 280B47D51AEC2ED60044CA0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,21 +646,40 @@
 		};
 		280B47C11AEC28310044CA0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6CBEE1DCB87B59605C5B42 /* Pods-Dolar Hoy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.2.1",
+				);
 				INFOPLIST_FILE = "Dolar Hoy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dolar Hoy/Dolar Hoy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		280B47C21AEC28310044CA0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841BED310199948B0E6F0F9B /* Pods-Dolar Hoy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/GoogleMobileAdsSdkiOS-7.2.1",
+				);
 				INFOPLIST_FILE = "Dolar Hoy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dolar Hoy/Dolar Hoy-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -392,6 +717,34 @@
 			};
 			name = Release;
 		};
+		280B47D91AEC2ED60044CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1142227419129B5200D846E7 /* Pods-DolarHoy.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DolarHoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		280B47DA1AEC2ED60044CA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA2570CDE2364F124E4990A /* Pods-DolarHoy.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DolarHoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +764,7 @@
 				280B47C21AEC28310044CA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		280B47C31AEC28310044CA0F /* Build configuration list for PBXNativeTarget "Dolar HoyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +773,16 @@
 				280B47C51AEC28310044CA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280B47D81AEC2ED60044CA0F /* Build configuration list for PBXNativeTarget "DolarHoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280B47D91AEC2ED60044CA0F /* Debug */,
+				280B47DA1AEC2ED60044CA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

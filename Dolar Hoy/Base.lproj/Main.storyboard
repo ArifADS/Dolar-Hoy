@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dolar_Hoy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,103 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AnL-qX-azV" userLabel="StatusBar">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+                                <color key="backgroundColor" red="0.25882352941176473" green="0.56862745098039214" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="ahd-Ez-ijf"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$300" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="GXo-iU-bO7" userLabel="%PRECIO DT%" customClass="LTMorphingLabel" customModule="Dolar_Hoy">
+                                <rect key="frame" x="20" y="40" width="186" height="110"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dolar Today" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEU-1L-kEp">
+                                <rect key="frame" x="20" y="150" width="110" height="28"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="0.4392156862745098" green="0.74901960784313726" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="TNm-oC-9ad" userLabel="%PRECIO SM%" customClass="LTMorphingLabel" customModule="Dolar_Hoy">
+                                <rect key="frame" x="20" y="186" width="186" height="110"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIMADI" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5O-6W-pcz">
+                                <rect key="frame" x="20" y="296" width="69" height="28"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.74901960779999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2K-IK-Yvj" customClass="JBLineChartView">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="snz-V2-9ST"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="GXo-iU-bO7" secondAttribute="trailing" constant="20" id="3i6-0k-gUU"/>
+                            <constraint firstItem="V2K-IK-Yvj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3pn-L0-EzZ"/>
+                            <constraint firstAttribute="trailing" secondItem="GXo-iU-bO7" secondAttribute="trailing" constant="58" id="4BR-j1-fJJ"/>
+                            <constraint firstItem="V2K-IK-Yvj" firstAttribute="leading" secondItem="k5O-6W-pcz" secondAttribute="trailing" id="4Wd-1f-Ajl"/>
+                            <constraint firstItem="GXo-iU-bO7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6yk-aU-yDA"/>
+                            <constraint firstItem="TNm-oC-9ad" firstAttribute="top" secondItem="GXo-iU-bO7" secondAttribute="bottom" constant="36" id="HCx-DL-Jlr"/>
+                            <constraint firstItem="y3c-jy-aDJ" firstAttribute="top" secondItem="AnL-qX-azV" secondAttribute="bottom" id="HZe-s6-2On"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="TNm-oC-9ad" secondAttribute="trailing" constant="20" id="P4N-Lb-Fgq"/>
+                            <constraint firstItem="oEU-1L-kEp" firstAttribute="leading" secondItem="GXo-iU-bO7" secondAttribute="leading" id="P7a-Pd-Fa4"/>
+                            <constraint firstItem="k5O-6W-pcz" firstAttribute="top" secondItem="TNm-oC-9ad" secondAttribute="bottom" id="PV3-LC-z1R"/>
+                            <constraint firstItem="GXo-iU-bO7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Q2b-HU-fZl"/>
+                            <constraint firstItem="oEU-1L-kEp" firstAttribute="top" secondItem="GXo-iU-bO7" secondAttribute="bottom" id="VhF-VQ-mCr"/>
+                            <constraint firstItem="AnL-qX-azV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y8q-CR-Dzn"/>
+                            <constraint firstAttribute="trailing" secondItem="V2K-IK-Yvj" secondAttribute="trailing" id="eKd-m7-uIk"/>
+                            <constraint firstItem="GXo-iU-bO7" firstAttribute="top" secondItem="oEU-1L-kEp" secondAttribute="bottom" constant="1" id="eul-mj-ELG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V2K-IK-Yvj" secondAttribute="bottom" id="kPv-UR-acM"/>
+                            <constraint firstItem="GXo-iU-bO7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="58" id="ohd-fd-2Is"/>
+                            <constraint firstItem="k5O-6W-pcz" firstAttribute="leading" secondItem="TNm-oC-9ad" secondAttribute="leading" id="pdh-XA-aHC"/>
+                            <constraint firstItem="TNm-oC-9ad" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="q4H-Br-gcN"/>
+                            <constraint firstItem="AnL-qX-azV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="u8g-jX-SaB"/>
+                            <constraint firstAttribute="trailing" secondItem="AnL-qX-azV" secondAttribute="trailing" id="wKd-Kp-pL0"/>
+                            <constraint firstAttribute="centerY" secondItem="AnL-qX-azV" secondAttribute="centerY" id="y7I-pE-8M5"/>
+                            <constraint firstItem="TNm-oC-9ad" firstAttribute="leading" secondItem="k5O-6W-pcz" secondAttribute="leading" id="yr5-Dq-Zl9"/>
+                            <constraint firstAttribute="centerX" secondItem="AnL-qX-azV" secondAttribute="centerX" id="z1K-rC-8hM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="y7I-pE-8M5"/>
+                                <exclude reference="z1K-rC-8hM"/>
+                                <exclude reference="HZe-s6-2On"/>
+                                <exclude reference="4BR-j1-fJJ"/>
+                                <exclude reference="eul-mj-ELG"/>
+                                <exclude reference="ohd-fd-2Is"/>
+                                <exclude reference="pdh-XA-aHC"/>
+                                <exclude reference="4Wd-1f-Ajl"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Dvi-Nu-Ahl" appends="YES" id="Nti-B9-hNR"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="lineChartView" destination="V2K-IK-Yvj" id="AXg-ax-D1F"/>
+                        <outlet property="precioDTLabel" destination="GXo-iU-bO7" id="aeI-CE-jCz"/>
+                        <outlet property="precioSLabel" destination="TNm-oC-9ad" id="aXk-0I-eO0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Dvi-Nu-Ahl">
+                    <connections>
+                        <action selector="tappedView:" destination="BYZ-38-t0r" id="WxV-GM-6SH"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="429" y="385"/>
         </scene>
     </scenes>
 </document>
